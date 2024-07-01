@@ -21,7 +21,7 @@
           <th>Logo</th>
           <th>Channel Name</th>
           <th>Link</th>
-          <th>Username</th>
+          <th>userName</th>
           <th>User Profile</th>
           <th>DateCreation</th>
           <th>Feature</th>
@@ -56,12 +56,12 @@
               >
             </td>
             <td class="c-width">
-              {{ channel.Username || channel.FirstName }}
+              {{ channel.userName || channel.FirstName }}
             </td>
             <td>
               <img
                 class="avatar-img"
-                [src]="channel.ProfilePicName"
+                [src]="channel.profilePicName"
                 onerror="this.onerror=null;
                   this.src='assets/img/avatars/placeholder-user.png';"
               />
